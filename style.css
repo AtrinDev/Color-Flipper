@@ -1,0 +1,147 @@
+/* global styles */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: hsl(210, 36%, 96%);
+    color: hsl(209, 61%, 16%);
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    letter-spacing: 0.1rem;
+    line-height: 1.25;
+}
+
+
+/* end of global styles */
+
+
+/* navbar */
+
+nav {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-center {
+    width: 90vw;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-center h3 {
+    color: hsl(205, 78%, 60%);
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-right: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-links a {
+    color: hsl(205, 86%, 17%);
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+.nav-links a:hover {
+    color: hsl(205, 78%, 60%);
+}
+
+
+/* end if navbar */
+
+
+/* container */
+
+.container {
+    min-height: calc(100vh - 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h2 {
+    background-color: #222;
+    color: #FFF;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.color {
+    color: hsl(205, 78%, 60%);
+    letter-spacing: 0.2rem;
+}
+
+.btn-color {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #222;
+    padding: 0.7rem 1.25rem;
+    border: 2px solid #222;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+.btn-color:hover {
+    background-color: #222;
+    color: #FFF;
+}
+
+
+/* end of container */
